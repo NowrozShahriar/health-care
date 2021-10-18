@@ -1,0 +1,41 @@
+.banner {
+    color: white;
+    background: url("https://i.ibb.co/pj4PnwY/ehealthcare-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.banner-text {
+    padding: 300px 30px;
+}
+
+.banner-text h1 {
+    margin: 0;
+}
+
+.banner-text button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.banner-text button:hover {
+    background: white;
+    color: rgb(91, 161, 149);
+}
+
+@media only screen and (max-width: 480px) {
+    .banner {
+        display: block;
+        background-size: 250%;
+    }
+    .banner-text {
+        padding: 120px 5px;
+        text-align: center;
+    }
+}
+
