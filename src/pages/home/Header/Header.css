@@ -15,10 +15,31 @@
     color: rgb(91, 161, 149);
 }
 
+.header nav {
+    display: flex;
+}
+
 .header nav a {
     font-weight: 600;
     color: rgba(96, 102, 112, 0.87);
     text-decoration: none;
+    margin: 0 5px;
+}
+
+.log-div {
+    display: flex;
+}
+
+.log {
+    font-weight: 600;
+    color: rgba(96, 102, 112, 0.87);
+    margin: 0 5px;
+    border: 2px solid rgba(96, 102, 112, 0.87);
+}
+
+.userName {
+    font-weight: 600;
+    color: rgba(96, 102, 112, 0.87);
     margin: 0 5px;
 }
 
@@ -35,10 +56,14 @@
         font-size: x-large;
         margin: 0 5px;
     }
+    .header nav {
+        display: block;
+        text-align: left;
+    }
     .header nav a {
         font-size: 14px;
     }
-    .header nav {
-        text-align: left;
+    .log {
+        font-size: 14px;
     }
 }

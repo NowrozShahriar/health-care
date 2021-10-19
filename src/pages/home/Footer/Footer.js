@@ -34,7 +34,7 @@ function Footer() {
                     <button>Subscribe</button>
                 </section>
             </div>
-            <p>© 2021 eHealthCare. All rights reserved.</p>
+            <p style={{fontSize: 'smaller'}}>© 2021 eHealthCare. All rights reserved.</p>
         </div>
     );
 };

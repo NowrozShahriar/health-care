@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Services.css";
 import Service from "../Service/Service"
+import useFakedata from "../../../hooks/useFakedata";
 
 function Services() {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch("fakedata.json")
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
+    const services = useFakedata();
 
     return (
         <div className="services">
@@ -16,7 +12,7 @@ function Services() {
             <div className="service-container">
             {
                 services.map(service => <Service
-                    key={service.name} service={service}/>)
+                    key={service.id} service={service}/>)
             }
             </div>
         </div>

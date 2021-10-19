@@ -1,44 +1,44 @@
 [
     {
-        "key": 0,
+        "id": "dental-services",
         "name": "Dental Services",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     },
     {
-        "key": 1,
+        "id": "cardiology",
         "name": "Cardiology",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     },
     {
-        "key": 2,
+        "id": "for-disabled",
         "name": "For Disabled",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     },
     {
-        "key": 3,
+        "id": "orthopedic-services",
         "name": "Orthopedic Services",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     },
     {
-        "key": 4,
+        "id": "emergency",
         "name": "Emergency",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     },
     {
-        "key": 5,
+        "id": "x-ray",
         "name": "X-ray",
         "shortDesc": "From family dentistry to specialty care like braces and dental implants, we offer a complete line of dental services to care for your overall oral health.",
-        "long-Desc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
+        "longDesc": "eHealthCare offer every dental specialty your family may need, including general and pediatric care, braces and orthodontics, oral surgery, dental implants, and more. \n \n At Dental Associates, you’ll always receive the highest level of care every step of the way. Your dental team starts with your general dentist, a hygienist, and support staff. These are the same friendly faces you'll see with each visit you make to Dental Associates. Should you need more complex dental services, our in-house specialists will provide your care—without a referral across town.",
         "img": "https://pmrpressrelease.com/wp-content/uploads/2019/12/Dental-Services0.jpg"
     }
 ]
