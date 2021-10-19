@@ -3,7 +3,7 @@ import React from "react";
 function NotFound() {
     return (
         <div>
-            <h1>404</h1>
+            <img width="100%" src="https://i.ibb.co/FByPYPy/5203299.jpg" alt="" />
         </div>
     );
 };

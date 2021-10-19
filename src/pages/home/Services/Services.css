@@ -1,0 +1,13 @@
+.services {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services h1 {
+    color: rgb(91, 161, 149);
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

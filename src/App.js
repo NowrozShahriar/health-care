@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import Header from "./Pages/home/Header/Header";
-import Home from "./Pages/home/Home/Home";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
-import Login from "./Pages/login/Login/Login";
-import NotFound from "./Pages/NotFound/NotFound";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Header from "./pages/home/Header/Header";
+import Home from "./pages/home/Home/Home";
+import Login from "./pages/login/Login/Login";
+import NotFound from "./pages/NotFound/NotFound";
+import Footer from "./pages/home/Footer/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <NotFound/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

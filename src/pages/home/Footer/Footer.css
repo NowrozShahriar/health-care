@@ -1,0 +1,75 @@
+.footer {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(20, 34, 32);
+}
+
+.footer h1,h3 {
+    color: rgb(91, 161, 149);
+}
+
+.footer p {
+    margin-bottom: 2px;
+    color: rgb(112, 122, 121);
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: left;
+    padding: 0 80px;
+}
+
+.footer-menu section {
+    font-size: smaller;
+    padding: 10px 20px;
+}
+
+.footer-menu section p:hover {
+    color: rgb(91, 161, 149);
+}
+
+.footer-menu input {
+    color: rgb(91, 161, 149);
+    font-size: smaller;
+    width: 180px;
+    padding: 8px 8px;
+    background-color: transparent;
+    border: 2px solid rgba(112, 122, 121, 0.363);
+    margin-bottom: 10px;
+}
+
+.footer-menu input:hover {
+    border-color: rgba(91, 161, 149, 0.788);
+}
+
+.footer-menu input:focus {
+    outline: none;
+    border-color: rgba(91, 161, 149, 0.788);
+}
+
+.footer-menu button {
+    width: 90px;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 6px 6px;
+    background-color: rgba(137, 255, 235, 0.384);
+    border: 2px solid rgba(112, 122, 121, 0.363);
+    color: rgba(255, 255, 255, 0.63);
+    border-radius: 2px;
+}
+
+.footer-menu button:hover {
+    background-color: transparent;
+    border: 2px solid rgba(112, 122, 121, 0.363);
+    color: rgb(91, 161, 149);
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-menu {
+        display: block;
+        padding: 0 10px;
+    }
+}
