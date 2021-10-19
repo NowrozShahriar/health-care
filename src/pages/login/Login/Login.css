@@ -1,12 +1,50 @@
 .login {
     width: 300px;
-    margin: 40px auto;
+    height: 350px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.logged {
+    text-align: center;
+}
+
+.login h1, h4{
+    color: rgba(21, 37, 36, 0.76);
+    margin: 0px;
+}
+
+.input-box {
+    width: 240px;
+    border: 2px solid rgba(24, 42, 65, 0.568);
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.input-box:focus {
+    outline: none;
 }
 
 .button {
     font-weight: 600;
     color: rgba(96, 102, 112, 0.993);
     border: 2px solid rgba(96, 102, 112, 0.87);
+}
+
+.register-support {
+    width: 300px;
+    margin: 20px auto 200px auto;
+}
+
+.register-support p {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(29, 46, 41);
+}
+
+.register-support p:hover {
+    text-decoration: underline;
 }

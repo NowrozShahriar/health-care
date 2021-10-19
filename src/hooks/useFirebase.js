@@ -1,12 +1,42 @@
 import { useEffect, useState } from "react";
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, updateProfile, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
 import initializeAuth from "../pages/login/firebase/firebase.init";
+import { displayName} from "../pages/login/Login/Login";
 
 initializeAuth();
 
 function useFirebase() {
-    const [user, setUser] = useState({});
     const auth = getAuth();
+    const [user, setUser] = useState({});
+    const [error, setError] = useState({});
+
+    const processLogin = (email, password) => {
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                setUser(result.user);
+                setError('');
+            })
+            .catch(error => {
+                setError(error.message);
+            })
+    }
+
+    const registerNewUser = (email, password) => {
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                setUser(result.user);
+                setError('');
+                setUserName();
+            })
+            .catch(error => {
+                setError(error.message);
+            })
+    }
+
+    const setUserName = () => {
+        updateProfile(auth.currentUser, { displayName: displayName })
+            .then(result => {})
+    }
 
     function signInWithGoogle() {
         const googleProvider = new GoogleAuthProvider();
@@ -35,6 +65,9 @@ function useFirebase() {
 
     return {
         user,
+        error,
+        processLogin,
+        registerNewUser,
         signInWithGoogle,
         logOut
     };
